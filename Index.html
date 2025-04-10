@@ -3,16 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Horóscopo Azteca - ¿Qué taco eres?</title>
+  <title>Taco Azteca - Descubre tu Taco Zodiacal</title>
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-  <header>
-    <h1>Horóscopo Azteca</h1>
-    <p>Descubre más sobre el horóscopo azteca y qué taco eres según tu signo azteca</p>
-  </header>
+  <div class="container">
+    
+    <h1>🌮 Tacos | Horóscopo Azteca 🌮</h1>
+    <p>Descubre que tipo de Taco eres según tu Horóscopo Azteca</p>
+  
 
-  <main>
+  <!-- <main>
     <label for="birthdate">Ingresa tu fecha de nacimiento:</label>
     <input type="date" id="birthdate">
     <button onclick="mostrarResultado()">Descubrir mi taco</button>
@@ -20,7 +21,18 @@
     <section id="resultado">
       <p>Lucio te amo</p>
     </section>
-  </main>
+  </main> 
+  ¿Qué exactamente intentaste acá? - ILG--> 
+
+  <form id="formularioFecha">
+    <label for="fechaNacimiento">Ingresa tu fecha de nacimiento:</label>
+    <input type="date" id="fechaNacimiento" required>
+    <button type="submit">Descubrir mi Taco</button>
+  </form>
+
+  <div id="resultado"></div>
+
+  </div>
 
   <footer>
     <p>Proyecto para la materia de Marco Legal | 2025</p>
