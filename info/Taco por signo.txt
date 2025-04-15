@@ -1,0 +1,79 @@
+﻿* Cipactli – Cocodrilo (Caimán)
+
+* Taco de Arrachera: Representa los comienzos, la fuerza y la abundancia. Como buen líder natural, este taco llega con todo el poder norteño y se impone en el asador desde el primer bocado.
+
+2. Ehecatl – Viento
+
+* Taco de Tripa: Adaptable, sociable y ligero, igual que el cotorreo en un puesto de tacos después de la fiesta del pueblo.
+
+3. Calli – Casa
+
+* Taco de Guisado Casero: Confortable, hogareño y estable, como los guisados de mamá un dominguito.
+
+4. Cuetzpalin – Lagarto
+
+* Taco Campechano: Siempre renovándose y ágil, combina carnes sin miedo al exito como buen mexicano, echándole limón y salsa verde.
+
+5. Coatl – Serpiente
+
+* Taco de Lengua: Misterioso y sorprendente, inicialmente intimida, pero conquista paladares valientes que se atreven a probar de todo.
+
+6. Miquiztli – Muerte
+
+* Taco de Birria: La renovación hecha taco, ideal para curar la cruda más espantosa de los domingos en la mañana.
+
+7. Mazatl – Venado
+
+* Taco de Cochinita Pibil: Refinado, estético y sensible, este taco es una joya del sureste que combina belleza con un sabor que hace llorar de emoción.
+
+8. Tochtli – Conejo
+
+* Taco al Pastor: Alegre y sociable, infalible para prender cualquier reunión, acompañado con su piña voladora.
+
+9. Atl – Agua
+
+* Taco de Pescado: Fluido, fresco y emocionalmente reconfortante, como un abrazo después de un mal día en la playa.
+
+10. Itzcuintli – Perro
+
+* Taco de Suadero: Leal, callejero y sabroso, el famoso "suaperro" es el favorito de los que saben que rollo en la taquería.
+
+11. Ozomahtli – Mono
+
+* Taco de Canasta: Divertido y creativo, como el vendedor que pasa en bicicleta gritando "¡Tacos, tacos de canasta!".
+
+12. Malinalli – Hierba
+
+* Taco de Nopales: Equilibrado y prudente, listo para sanar cualquier malestar, ideal después de excesos culinarios.
+
+13. Acatl – Caña
+
+* Taco Dorado: Firme y justo, como esos tacos doraditos bañados generosamente en salsita roja o verde.
+
+14. Ocelotl – Jaguar
+
+* Taco de Cecina: Decidido y magnético, conquista con fuerza y sabor tradicional mexicano.
+
+15. Cuauhtli – Águila
+
+* Taco Gobernador: Ambicioso y estratégico, presente en los menús más selectos de México, conquistando alturas culinarias.
+
+16. Cozcacuauhtli – Buitre
+
+* Taco de Carnitas: Sabio y transformador, como la comida del sábado con carnitas y una buena salsa verde con aguacate.
+
+17. Ollin – Movimiento
+
+* Taco de Mixiote: Dinámico y activo, cambia y evoluciona, ideal para degustar en cualquier rincón mexicano.
+
+18. Tecpatl – Pedernal
+
+* Taco de Chorizo: Valiente y desafiante, dispuesto a enfrentar cualquier reto con una buena salsa de habanero.
+
+19. Quiahuitl – Lluvia
+
+* Taco Ahogado: Sensible y empático, perfecto para esos días lluviosos en Guadalajara con su buena salsa roja.
+
+20. Xochitl – Flor
+
+* Taco de Barbacoa: Romántico y delicioso, ideal para comenzar el domingo con un toque de tradición y salsa borracha.
