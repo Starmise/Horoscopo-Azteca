@@ -1,23 +1,58 @@
 const signosAztecas = [
-    { nombre: "Cipactli (Cocodrilo)", fechaInicio: "01-01", fechaFin: "01-20", taco: "Taco de Pescado" },
-    { nombre: "Ehécatl (Viento)", fechaInicio: "01-21", fechaFin: "02-10", taco: "Taco de Camarón" },
-    { nombre: "Calli (Casa)", fechaInicio: "02-11", fechaFin: "03-02", taco: "Taco de Carnitas" },
-    { nombre: "Cuetzpallin (Lagartija)", fechaInicio: "03-03", fechaFin: "03-22", taco: "Taco de Barbacoa" },
-    { nombre: "Coatl (Serpiente)", fechaInicio: "03-23", fechaFin: "04-12", taco: "Taco de Lengua" },
-    { nombre: "Miquiztli (Muerte)", fechaInicio: "04-13", fechaFin: "05-02", taco: "Taco de Cabeza" },
-    { nombre: "Mazatl (Venado)", fechaInicio: "05-03", fechaFin: "05-22", taco: "Taco de Suadero" },
-    { nombre: "Tochtli (Conejo)", fechaInicio: "05-23", fechaFin: "06-12", taco: "Taco al Pastor" },
-    { nombre: "Atl (Agua)", fechaInicio: "06-13", fechaFin: "07-02", taco: "Taco de Pescado" },
-    { nombre: "Itzcuintli (Perro)", fechaInicio: "07-03", fechaFin: "07-22", taco: "Taco de Chorizo" },
-    { nombre: "Ozomatli (Mono)", fechaInicio: "07-23", fechaFin: "08-12", taco: "Taco de Alambre" },
-    { nombre: "Pápaatl (Águila)", fechaInicio: "08-13", fechaFin: "09-02", taco: "Taco de Cochinita" },
-    { nombre: "Cuauhtli (Águila)", fechaInicio: "09-03", fechaFin: "09-22", taco: "Taco de Birria" },
-    { nombre: "Cozcacuauhtli (Zopilote)", fechaInicio: "09-23", fechaFin: "10-12", taco: "Taco de Tripa" },
-    { nombre: "Ollin (Movimiento)", fechaInicio: "10-13", fechaFin: "11-02", taco: "Taco de Canasta" },
-    { nombre: "Técpatl (Pedernal)", fechaInicio: "11-03", fechaFin: "11-22", taco: "Taco de Barbacoa" },
-    { nombre: "Quiahuitl (Lluvia)", fechaInicio: "11-23", fechaFin: "12-12", taco: "Taco de Pescado" },
-    { nombre: "Xóchitl (Flor)", fechaInicio: "12-13", fechaFin: "01-01", taco: "Taco al Pastor" }
-  ];
+  { nombre: "Cipactli (Cocodrilo)", fechaInicio: "01-03", fechaFin: "01-23", taco: "Taco de Arrachera", 
+    descSigno: "Descripción placeholder del signo Cipactli.", descTaco: "Una descripción del Taco de Arrachera." },
+
+  { nombre: "Ehécatl (Viento)", fechaInicio: "01-24", fechaFin: "02-12", taco: "Taco de Tripa", 
+    descSigno: "Descripción placeholder del signo Ehécatl.", descTaco: "Una descripción del Taco de Tripa." },
+
+  { nombre: "Calli (Casa)", fechaInicio: "02-13", fechaFin: "03-04", taco: "Taco de Guisado Casero", 
+    descSigno: "Descripción placeholder del signo Calli.", descTaco: "Descripción del taco." },
+
+  { nombre: "Cuetzpallin (Lagartija)", fechaInicio: "03-05", fechaFin: "03-24", taco: "Taco de Campechano", 
+    descSigno: "Descripción placeholder del signo Cuetzpallin.", descTaco: "UUna descripción del Taco." },
+
+  { nombre: "Coatl (Serpiente)", fechaInicio: "03-25", fechaFin: "04-13", taco: "Taco de Lengua", 
+    descSigno: "Descripción placeholder del signo Coatl.", descTaco: "Una descripción del Taco" },
+
+  { nombre: "Miquiztli (Muerte)", fechaInicio: "04-14", fechaFin: "05-03", taco: "Taco de Birria", 
+    descSigno: "Descripción placeholder del signo Miquiztli.", descTaco: "Una descripción del Taco." },
+
+  { nombre: "Mazatl (Venado)", fechaInicio: "05-04", fechaFin: "05-23", taco: "Taco de Cochinita Pibil", 
+    descSigno: "Descripción placeholder del signo Mazatl.", descTaco: "Una descripción del Taco" },
+
+  { nombre: "Tochtli (Conejo)", fechaInicio: "05-24", fechaFin: "06-12", taco: "Taco al Pastor", 
+    descSigno: "Descripción placeholder del signo Tochtli.", descTaco: "Una descripción del Taco." },
+
+  { nombre: "Atl (Agua)", fechaInicio: "06-13", fechaFin: "07-02", taco: "Taco de Pescado", 
+    descSigno: "Descripción placeholder del signo Atl.", descTaco: "Una descripción del Taco" },
+
+  { nombre: "Itzcuintli (Perro)", fechaInicio: "07-03", fechaFin: "07-22", taco: "Taco de Suadero", 
+    descSigno: "Descripción placeholder del signo Itzcuintli.", descTaco: "Una descripción del Taco" },
+
+  { nombre: "Ozomatli (Mono)", fechaInicio: "07-23", fechaFin: "08-11", taco: "Taco de Canasta", 
+    descSigno: "Descripción placeholder del signo Ozomatli.", descTaco: "Una descripción del Taco" },
+
+  { nombre: "Malinalli (Hierba)", fechaInicio: "08-12", fechaFin: "08-31", taco: "Taco de Nopales", 
+    descSigno: "Descripción placeholder del signo Malinalli.", descTaco: "Una descripción del Taco" },
+
+  { nombre: "Acatl (Caña)", fechaInicio: "09-01", fechaFin: "09-20", taco: "Taco Dorado", 
+    descSigno: "Descripción placeholder del signo Acatl.", descTaco: "Una descripción del Taco" },
+
+  { nombre: "Ocelotl (Jaguar)", fechaInicio: "09-21", fechaFin: "10-10", taco: "Taco de Cecina", 
+    descSigno: "Descripción placeholder del signo Ocelotl.", descTaco: "Una descripción del Taco" },
+
+  { nombre: "Cuauhtli (Águila)", fechaInicio: "10-11", fechaFin: "10-30", taco: "Taco Gobernador", 
+    descSigno: "Descripción placeholder del signo Cuauhtli.", descTaco: "Una descripción del Taco" },
+
+  { nombre: "Cozcacuauhtli (Buitre)", fechaInicio: "10-31", fechaFin: "11-19", taco: "Taco de Carnitas", 
+    descSigno: "Descripción placeholder del signo Cozcacuauhtli.", descTaco: "Una descripción del Taco." },
+
+  { nombre: "Ollin (Movimiento)", fechaInicio: "11-20", fechaFin: "12-09", taco: "Taco de Mixiote", 
+    descSigno: "Descripción placeholder del signo Ollin.", descTaco: "Una descripción del Taco" },
+    
+  { nombre: "Tecpatl (Pedernal)", fechaInicio: "12-10", fechaFin: "01-02", taco: "Taco al Chorizo", 
+    descSigno: "Descripción placeholder del signo Tecpatl.", descTaco: "Una descripción del Taco" }
+];
   
   // Función que maneja rangos normales y rangos que cruzan el año
   function fechaEnRango(fecha, inicio, fin) {
@@ -56,41 +91,12 @@ const signosAztecas = [
       document.getElementById('resultado').innerHTML = `
         <h3>Tu Signo Azteca es:</h3>
         <h2>${signoAzteca.nombre}</h2>
+        <p>${signoAzteca.descSigno}</p>
         <h3>Tu Taco Zodiacal:</h3>
         <h2>${signoAzteca.taco}</h2>
+        <p>${signoAzteca.descTaco}</p>
       `;
     } else {
       document.getElementById('resultado').innerHTML = `<h3>No se pudo determinar tu signo</h3>`;
     }
-  }); //Todo esto maneja placeholders, cambia los resultadodos de los signos y tacos a los reales.
-
-
-
-// function mostrarResultado() {
-//     const fecha = document.getElementById('birthdate').value;
-//     const resultado = document.getElementById('resultado');
-  
-//     if (!fecha) {
-//       resultado.innerHTML = "<p>Por favor, ingresa tu fecha de nacimiento.</p>";
-//       return;
-//     }
-  
-//     // A partis de acá va la lógica para calcular signo y taco, 
-//     // pero por ahora lo hice aleatorio, con dos arrays para cada caso.
-//     const signos = [
-//       "Lucio", "Chilitos", "Chicuelos", "Chicken Jockey", "Gomi", "Esta va para Alexis"
-//     ];
-  
-//     const tacos = [
-//       "Quemenotas", "Taco de ojo", "Tacontodo", "Taco de chaquetas"
-//     ];
-  
-//     const signo = signos[Math.floor(Math.random() * signos.length)];
-//     const taco = tacos[Math.floor(Math.random() * tacos.length)];
-  
-//     resultado.innerHTML = `
-//       <h2>Tu signo azteca es: ${signo}</h2>
-//       <h3>Y tu taco horoscopal o como se diga alch no se es: ${taco} </h3>
-//     `;
-//   }
-  
+  });
