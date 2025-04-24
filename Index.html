@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Taco Azteca - Descubre tu Taco Zodiacal</title>
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/ButtonStyle.css">
+  <link rel="stylesheet" href="styles/InputStyle.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
@@ -20,15 +22,39 @@
           <hr style="width:55%;">
           <p>Descubre tu signo Azteca y qué tipo de Taco eres según tu Horóscopo Azteca</p>
         </div>
+        
       <div class="div3">
         <form id="formularioFecha">
-          <label for="fechaNacimiento">Ingresa tu fecha de nacimiento:</label>
-          <input type="date" id="fechaNacimiento" required>
-          <button type="submit">Descubrir mi Taco</button>
+          <div class="input__container">
+            <div class="shadow__input"></div>
+        
+            <!-- Botón decorativo estilo shadow -->
+            <button class="input__button__shadow" type="button" tabindex="-1">
+              <img src="assets/Iconos/taco.png" alt="icono de taco" width="30" height="30"> 
+            </button>
+        
+            <!-- Input de fecha estilizado -->
+            <input
+              type="date"
+              id="fechaNacimiento"
+              name="fechaNacimiento"
+              required
+              class="input__search"
+              placeholder="Selecciona tu fecha de nacimiento"
+            />
+          </div>
+        
+          <!-- Botón del formulario -->
+          <div class="box-button">
+            <button class="button" type="submit">Descubrir mi Taco</button>
+          </div>
         </form>
+        
+
       </div>
 
       <div class="div4" id="resultado"></div>
+      
       <footer class="div5">
       <p>Proyecto para la materia de Marco Legal | 2025 | CC BY-ND</p>
       <a href="https://www.flaticon.es/iconos-gratis/azteca" title="azteca iconos">Azteca iconos creados por Freepik - Flaticon</a>

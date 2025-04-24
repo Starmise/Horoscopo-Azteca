@@ -1,11 +1,13 @@
 body {
   background-color: #f4f4f4;
   margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   overflow-x: hidden;
+  
 }
 
 form {
@@ -80,6 +82,7 @@ button:hover {
   margin: 0;
 }
 
+
 .parent {
   position: relative;
   display: grid;
@@ -88,6 +91,7 @@ button:hover {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
   gap: 100px;
+  
 }
   
   
@@ -102,15 +106,12 @@ button:hover {
 }
 
 .div3 {
+  
   z-index: 1; 
-  color: white;
-  text-align: center;
-  background-color: #606C38;
-  border: 5px solid #283618;
-  border-radius: 10px;
   grid-column: span 3 / span 3;
   grid-column-start: 2;
   grid-row-start: 2;
+  margin-bottom: 100px;
 }
 
 .div4 {
@@ -259,3 +260,35 @@ button:hover {
   }
   
 }
+
+/* From Uiverse.io by arthur_6104 */ 
+.box-button {
+  cursor: pointer;
+  border: 4px solid black;
+  background-color: gray;
+  padding-bottom: 10px;
+  transition: 0.1s ease-in-out;
+  user-select: none;  
+  width: 150px;
+  height: 50px;
+  align-self: center;
+}
+
+.button {
+  background-color: #dddddd;
+  border: 4px solid #fff;
+  padding: 3px 8px;
+  color: #283618;
+}
+
+.button span {
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+.box-button:active {
+  padding: 0;
+  margin-bottom: 10px;
+  transform: translateY(10px);
+}
+
