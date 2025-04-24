@@ -113,6 +113,10 @@ const signosAztecas = [
         <h3>Tu Taco Zodiacal:</h3>
         <h2>${signoAzteca.taco}</h2>
         <p>${signoAzteca.descTaco}</p>
+        <button onclick="window.location.href='horoscopos.html'" 
+            style="background-color: #283618; color: #fefae0; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; margin-top: 20px;">
+            Ver Horóscopos
+        </button>
       `;
     } else {
       document.getElementById('resultado').innerHTML = `<h3>No se pudo determinar tu signo</h3>`;
