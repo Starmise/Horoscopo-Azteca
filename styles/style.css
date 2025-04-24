@@ -128,6 +128,12 @@ button:hover {
   grid-column: span 3 / span 3;
   grid-column-start: 1;
   grid-row-start: 6;
+  margin-top: 20px;
+}
+
+.div5 a {
+  display: block; /* Asegura que el enlace ocupe toda la línea */
+  margin-bottom: 10px; /* Añade espacio debajo del enlace */
 }
       
 /* Estilo para el fondo de la página, el cual es el spline*/
